@@ -1,6 +1,10 @@
-use std::io;
+fn main(){
+    let mut x:i32 = 5;
+    let y = 6;
 
-fn main() {
-    let mut input = String::new();
-    io::stdin().read_line(&mut input).unwrap();
+    x = x + y;
+
+    println!("{x}");
+    println!("Success");
+
 }
