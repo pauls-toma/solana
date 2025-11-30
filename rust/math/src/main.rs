@@ -1,10 +1,4 @@
 fn main(){
-    let mut x:i32 = 5;
-    let y = 6;
-
-    x = x + y;
-
-    println!("{x}");
-    println!("Success");
-
-}
+    let _x: i32 = 5i32;
+    println!("Hello, World");
+}       
